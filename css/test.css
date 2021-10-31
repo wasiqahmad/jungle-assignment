@@ -8,14 +8,14 @@ font-size: 80%;
 } 
 @media (max-width:38.75em){
     html{
-    font-size: 65%;
+    font-size: 70%;
     }
     } 
-@media (max-width:26.25em){
+/* @media (max-width:26.25em){
 html{
 font-size: 50%;
     }
-    } 
+    }  */
             
 /* Navbar */
 .navbar{
