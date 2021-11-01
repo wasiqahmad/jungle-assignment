@@ -8,7 +8,7 @@ font-size: 80%;
 } 
 @media (max-width:38.75em){
     html{
-    font-size: 70%;
+    font-size: 75%;
     }
     } 
 /* @media (max-width:26.25em){
@@ -27,17 +27,81 @@ list-style: none !important;
 margin-left: 5rem ;
 font-size: 110%;
 }
+@media (max-width:28.75em){   
+.link{
+display: inline;
+list-style: none !important;
+margin-left: 4rem ;
+font-size: 110%;
+}
+}
+@media (max-width:26em){   
+.link{
+display: inline;
+list-style: none !important;
+margin-left: 3.5rem;
+font-size: 110%;
+}
+}
+@media (max-width:24.375em){   
+.link{
+display: inline;
+list-style: none !important;
+margin-left: 3rem;
+font-size: 110%;
+}
+}
+@media (max-width:22.5em){   
+.link{
+display: inline;
+list-style: none !important;
+margin-left: 2.5rem;
+font-size: 110%;
+}
+}
+@media (max-width:20.625em){   
+.link{
+display: inline;
+list-style: none !important;
+margin-left: 1.8rem;
+font-size: 110%;
+}
+}
 .links{
 color: rgb(189, 176, 176) !important;
+text-decoration: none;
 }
 .links:hover{
 color: #fff !important;
 }
-.linkes{
-/* margin-left: 29%; */
-width: 36rem;
-margin: auto
+@media (max-width:68.75em){
+.links{
+    color: rgb(189, 176, 176) !important;
+    text-decoration: none;
+font-size: 110%;    
 }
+}
+.linkes{
+    text-decoration: none !important;
+/* margin-left: 29%; */
+width: 39rem;
+margin: auto;
+margin-top: .5rem;
+margin-bottom: .5rem;
+}
+/* @media (max-width:28.125em){   
+.linkes{
+width: 39rem !important;
+margin-left: -1.5rem !important;
+margin: .5rem 0;
+}
+}
+@media (max-width:26.25em){   
+.linkes{
+width: 39rem !important;
+margin-left: -2.5rem !important;
+}
+} */
 /* Nav */
 
 .navbar-brand{
@@ -52,20 +116,14 @@ margin: auto
     background-image: url(../images/4.jpg) !important;
     background-size: cover;
 }
-@media (max-width:45em){
-    .header{
-    background-image: url(../images/4.jpg) !important;
-    background-size: cover;
-font-size: 90%;    
-}
-   }   
-@media (max-width:35em){
+
+@media (max-width:38.75em){
 .header{
 background-image: url(../images/4.jpg) !important;
 background-size: cover;
-font-size: 80%;    
+padding:5rem 0;
 }
-   }
+}
 .jungle{
     font-size: 400%;
     color: white;
@@ -170,10 +228,15 @@ margin: 2% 4%;
     margin-left: 20%;        
     }
     }
-    @media (max-width:49.375em){ 
+    @media (max-width:51.25em){ 
+    .pics{
+    margin-left: 18%;        
+    }
+    }
+    @media (max-width:47.5em){ 
     .pics{
     float: none;
-    margin-left: 17%;
+    margin-left: 16.4%;
     }
     }
     @media (max-width:45.625em){ 
@@ -191,68 +254,68 @@ margin: 2% 4%;
     @media (max-width:40.5em){ 
     .pics{
     float: none;
-    margin-left: 10.5%;
+    margin-left: 10%;
     }
     }
 @media (max-width:38.75em){
     .pics{
     float: none;
-    margin-left: 15.5%;
+    margin-left: 10.5%;
     }
     }
-    @media (max-width:35.75em){
+    @media (max-width:35.85em){
     .pics{
     float: none;
-    margin-left: 13.5%;
+    margin-left: 6.5%;
     }
     }
     @media (max-width:33.75em){
     .pics{
     float: none;
-    margin-left: 11.5%;
+    margin-left: 6.5%;
     }
     }
-    @media (max-width:31em){
+    @media (max-width:31.25em){
     .pics{
     float: none;
-    margin-left:8%;
+    margin-left:3%;
     }
     }
     @media (max-width:29.375em){
     .pics{
     float: none;
-    margin-left:5.5%;
+    margin-left:1%;
     font-size: 10% !important;
     }
     }
     @media (max-width:27.5em){
     .pics{
     float: none;
-    margin-left:2.5%;
+    margin-left:-3%;
     }
     }
     @media (max-width:26.25em){
     .pics{
     float: none;
-    margin-left:11.5%;
+    margin-left:6%;
     }
     }
     @media (max-width:23.75em){
     .pics{
     float: none;
-    margin-left:8%;
+    margin-left:2.5%;
     }
     }
     @media (max-width:21.875em){
     .pics{
     float: none;
-    margin-left:4%;
+    margin-left:-3.5%;
     }
     }
     @media (max-width:20.5em){
     .pics{
     float: none;
-    margin-left:1%;
+    margin-left:-6%;
     }
     }                            
     .pic1{
@@ -261,10 +324,32 @@ margin: 2% 4%;
     margin-top: 5rem;
     margin-right:-18rem;
     /* left: 14.5rem; */
-position: relative;
-left: 3rem;
-top: 6rem;
-}
+    position: relative;
+    left: 3rem;
+    top: 6rem;
+    }
+@media (max-width:33.75em){
+.pic1{
+    width: 17rem;
+    height: 9rem;
+    margin-top: 5rem;
+    margin-right:-18rem;
+    position: relative;
+    left: 3rem;
+    top: 6rem;
+    }
+    }
+@media (max-width:26.25em){
+.pic1{
+    width: 14rem;
+    height: 8rem;
+    margin-top: 5rem;
+    margin-right:-18rem;
+    position: relative;
+    left: 3rem;
+    top: 6rem;
+    }
+    }
 .pic1:hover{
     border: 5px solid rgb(0, 0, 255) !important;
 z-index: 10;
@@ -272,7 +357,7 @@ z-index: 10;
 .pic2{
     width: 18.75rem;
     height: 10.625rem;
-    left: 8rem;
+    left: 9.5rem;
     /* margin-left: -1rem; */
     position: relative;
 top: 15.5rem;
@@ -281,6 +366,26 @@ z-index: 1;
 .pic2:hover{
     border: 5px solid rgb(0, 0, 255) !important;
 z-index: 20;
+}
+@media (max-width:33.75em){    
+.pic2{
+    width: 17rem;
+    height: 9rem;
+    left: 11rem;
+    position: relative;
+    top: 15.5rem;
+    z-index: 1;
+}
+}
+@media (max-width:26.25em){    
+.pic2{
+    width: 14rem;
+    height: 8rem;
+    left: 12rem;
+    position: relative;
+    top: 14rem;
+    z-index: 1;
+}
 }
 .pic3{
     width: 18.75rem;
@@ -291,6 +396,24 @@ left: -2rem;
 top:7rem;
 /* margin-left: -1rem; */
 }
+@media (max-width:33.75em){        
+.pic3{
+width: 17rem !important;
+height: 9rem;
+position: relative;
+left: 2rem !important;
+top:7rem;
+}
+}
+@media (max-width:26.25em){        
+    .pic3{
+    width: 14rem !important;
+    height: 8rem !important;
+    position: relative;
+    left: 3rem !important;
+    top:7rem;
+    }
+    }
 .pic3:hover{
     border: 5px solid rgb(0, 0, 255) !important;
 z-index: 10;
@@ -368,7 +491,7 @@ float: left;
 }
 @media (max-width:38.75em){
 .card-1{
-    margin-left: 14%;
+    margin-left: 10%;
     }
     }
 @media (max-width:33.75em){
@@ -381,21 +504,31 @@ float: left;
 margin-left: 7%;
     }
     }
-@media (max-width:27.5em){
+@media (max-width:31.25em){
 .card-1{
-margin-left: 30%;
+margin-left:29%;
     }
     }
-@media (max-width:26.25em){
+@media (max-width:28.75em){
 .card-1{
-margin-left: 33.5%;
+margin-left: 27%;
     }
     }
+@media (max-width:26em){
+.card-1{
+margin-left: 24.7%;
+    }
+    }
+@media (max-width:23.5em){
+.card-1{
+margin-left: 23%;
+}
+}
 @media (max-width:21.25em){
 .card-1{
-margin-left: 31%;
-    }
-    }
+margin-left: 19%;
+}
+}
 .cardss{
 transition: all.3s;
 }
@@ -520,26 +653,35 @@ transform: translateY(-1.5rem) scale(1.03);
     margin-left: 11%;
     }
     }
+@media (max-width:33.125em){
+.card-2{
+    margin-left: 6.5%;
+    }
+    }
+@media (max-width:31.25em){
+.card-2{
+margin-top: 5rem;
+margin-left: 29%;
+}
+    }
 @media (max-width:28.75em){
 .card-2{
-    margin-left: 6%;
-    }
-    }
-@media (max-width:27.5em){
+margin-left: 27% !important;
+}
+}
+@media (max-width:26em){
 .card-2{
-    margin-top: 5rem;
-    margin-left: 30%;
-    }
-    }
-@media (max-width:26.25em){
+margin-left: 24.7% !important;
+}
+}
+@media (max-width:23.5em){
 .card-2{
-    margin-top: 5rem;
-    margin-left: 33.5%;
+margin-left: 23% !important;
     }
     }
 @media (max-width:21.25em){
 .card-2{
-    margin-left: 31%;
+margin-left: 19% !important;
     }
     }
 .card-3{
@@ -578,40 +720,40 @@ margin-right: 7%;
 .card-3{
     float: none;
     margin-top: 25rem;
-    margin-left: 14%;
-    }
-    }
-@media (max-width:38.75em){
-.card-3{
     margin-left: 10%;
     }
     }
-@media (max-width:28.75em){
+@media (max-width:33.75em){
 .card-3{
-    margin-left: 7%;
+    margin-left: 7% !important;
     }
     }
-@media (max-width:28.75em){
-.card-3{
-    margin-left: 7%;
-    }
-    }
-@media (max-width:27.5em){
+    @media (max-width:31.25em){
 .card-3{
     margin-top: 50rem;
-    margin-left:30%;
+    margin-left:29% !important;
     }
     }
-@media (max-width:26.25em){
+@media (max-width:28.75em){
 .card-3{
-    margin-left:33.5%;
+    margin-left: 27% !important;
     }
     }
-@media (max-width:26.25em){
+@media (max-width:26em){
 .card-3{
-    margin-left:31%;
+    margin-left: 24.7% !important;
     }
-    }            
+    }
+@media (max-width:23.5em){
+.card-3{
+margin-left: 23%;
+    }
+    }  
+@media (max-width:21.25em){
+.card-3{
+    margin-left: 19% !important;
+    }
+    }          
 /* Footer */
 
 footer{
