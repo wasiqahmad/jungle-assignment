@@ -89,13 +89,14 @@ margin: auto;
 margin-top: .5rem;
 margin-bottom: .5rem;
 }
-/* @media (max-width:28.125em){   
+ @media (max-width:26em){   
 .linkes{
 width: 39rem !important;
-margin-left: -1.5rem !important;
-margin: .5rem 0;
+padding-top: .7rem ;
+padding-bottom: .7rem;
 }
 }
+/*
 @media (max-width:26.25em){   
 .linkes{
 width: 39rem !important;
@@ -146,6 +147,7 @@ padding:5rem 0;
     font-size: 300%;
     color:white;
     text-align: center;
+    margin: 0 .2rem;
     /* padding-top: 0%; */
     text-transform: capitalize;
 }
@@ -182,7 +184,43 @@ padding:5rem 0;
         color: black;
         text-decoration: none;
     }
-    }  
+    } 
+    @media (max-width:31.875em){
+    .button{
+    margin-left:36%;
+    font-size: 150%;
+    margin-top: 3%;
+    padding: 1% 5%;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    }
+    }
+    @media (max-width:26em){
+    .button{
+    margin-left:34.9%;
+    font-size: 150%;
+    margin-top: 3%;
+    padding: 1% 5%;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    }
+    }
+    @media (max-width:21.875em){
+    .button{
+    margin-left:33.1%;
+    font-size: 150%;
+    margin-top: 3%;
+    padding: 1% 5%;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    }
+    }    
 /* after header */
 
 .africa{
@@ -351,7 +389,7 @@ margin: 2% 4%;
     }
     }
 .pic1:hover{
-    border: 5px solid rgb(0, 0, 255) !important;
+    border: 5px solid green !important;
 z-index: 10;
 }
 .pic2{
@@ -506,27 +544,31 @@ margin-left: 7%;
     }
 @media (max-width:31.25em){
 .card-1{
-margin-left:29%;
+margin-left:27%;
+width: 19rem;
+height: 20rem;
+font-size: 120%;
+padding:0 .5rem;
     }
     }
 @media (max-width:28.75em){
 .card-1{
-margin-left: 27%;
-    }
+margin-left: 25%;
+}
     }
 @media (max-width:26em){
 .card-1{
-margin-left: 24.7%;
+margin-left: 22%;
     }
     }
 @media (max-width:23.5em){
 .card-1{
-margin-left: 23%;
+margin-left: 19%;
 }
 }
 @media (max-width:21.25em){
 .card-1{
-margin-left: 19%;
+margin-left: 15%;
 }
 }
 .cardss{
@@ -658,6 +700,38 @@ transform: translateY(-1.5rem) scale(1.03);
     margin-left: 6.5%;
     }
     }
+
+    @media (max-width:31.25em){
+        .card-2{
+   margin-top: 5rem;
+            margin-left:27%;
+        width: 19rem;
+        height: 20rem;
+        font-size: 120%;
+        padding:0 .5rem;
+            }
+            }
+        @media (max-width:28.75em){
+        .card-2{
+        margin-left: 25%;
+        }
+            }
+        @media (max-width:26em){
+        .card-2{
+        margin-left: 22%;
+            }
+            }
+        @media (max-width:23.5em){
+        .card-2{
+        margin-left: 19%;
+        }
+        }
+        @media (max-width:21.25em){
+        .card-2{
+        margin-left: 15%;
+        }
+        }
+/* 
 @media (max-width:31.25em){
 .card-2{
 margin-top: 5rem;
@@ -683,7 +757,7 @@ margin-left: 23% !important;
 .card-2{
 margin-left: 19% !important;
     }
-    }
+    } */
 .card-3{
 width: 17rem;
 height: 18rem;
@@ -729,64 +803,143 @@ margin-right: 7%;
     }
     }
     @media (max-width:31.25em){
-.card-3{
-    margin-top: 50rem;
-    margin-left:29% !important;
+    .card-3{
+    margin-top: 53rem !important;
+    margin-left:27% !important;
+    width: 19rem;
+    height: 20rem;
+    font-size: 120%;
+    padding:0 .5rem;
+        }
+        }
+    @media (max-width:28.75em){
+    .card-3{
+    margin-left: 25% !important;
     }
-    }
-@media (max-width:28.75em){
-.card-3{
-    margin-left: 27% !important;
-    }
-    }
-@media (max-width:26em){
-.card-3{
-    margin-left: 24.7% !important;
-    }
-    }
-@media (max-width:23.5em){
-.card-3{
-margin-left: 23%;
-    }
-    }  
-@media (max-width:21.25em){
-.card-3{
+        }
+    @media (max-width:26em){
+    .card-3{
+    margin-left: 22% !important;
+        }
+        }
+    @media (max-width:23.5em){
+    .card-3{
     margin-left: 19% !important;
     }
-    }          
+    }
+    @media (max-width:21.25em){
+    .card-3{
+    margin-left: 15% !important;
+    }
+    }      
 /* Footer */
 
 footer{
-    margin-top: 28rem;
-    background-color: rgb(231, 216, 216);
+margin-top: 28rem;
+background-color: rgb(53, 45, 45);
+color:rgb(189, 176, 176) !important;
 padding: 4rem;
-height: 15rem;
+height: 17rem !important;
 padding-left: 5%;
+}
+li:hover{
+    color: #fff;
+cursor: pointer;
 }
 @media (max-width:51.875em){
     footer{
+    font-size: 110%;
     margin-top: 7rem;
-    background-color: rgb(231, 216, 216);
+    background-color: rgb(53, 45, 45);
+    color:rgb(189, 176, 176) !important;
     padding: 4rem;
-    height: 15rem;
+    height: 25rem !important;
     padding-left: 5%;
     }
-    }            
+    }
+@media (max-width:31.875em){
+    footer{
+    font-size: 110%;
+    margin-top: 7rem;
+    background-color: rgb(53, 45, 45);
+    color:rgb(189, 176, 176) !important;
+    padding: 4rem;
+    height: 40rem !important;
+    padding-left: 5%;
+    }
+    }         
+    .footer-heading-2{
+        color: #fff;
+    }   
 .side-1{
     width: 20%;
     float: left;
     text-align: center;
 /* padding: 2rem; */
 }
+@media (max-width:40.75em){       
+.side-1{
+width: 30%;
+float: left;
+text-align: center;
+}
+}
+@media (max-width:31.875em){       
+.side-1{
+width: 100%;
+margin: auto;
+margin-left: 3%;
+float: left;
+text-align: center;
+}
+}
+@media (max-width:25.875em){       
+.side-1{
+width: 100%;
+margin: auto;
+margin-left: 4%;
+float: left;
+text-align: center;
+}
+}
+@media (max-width:23.5em){       
+.side-1{
+width: 100%;
+margin: auto;
+margin-left: 5%;
+float: left;
+text-align: center;
+}
+}      
 .side-2{
     width: 16%;
     float: left;
     list-style: none;
     margin-left: 08%;
     text-align: center;
-
     /* padding: 2rem; */
 }
+@media (max-width:40.75em){       
+.side-2{
+    width: 26%;
+    float: left;
+    list-style: none;
+    margin-left: 08%;
+    text-align: center;
+    /* padding: 2rem; */
+}   
+}
+@media (max-width:31.875em){       
+.side-2{
+    width: 100%;
+    float: left;
+    list-style: none;
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 1rem;
+    text-align: center;
+    }   
+   }      
 .side-3{
     width: 20%;
     list-style: none;
@@ -795,6 +948,26 @@ padding-left: 5%;
 text-align: center;
 float: left;
 }
+
+@media (max-width:40.75em){       
+    .side-3{
+    width: 30%;
+    list-style: none;
+    margin-left: 6% !important;
+    text-align: center;
+    float: left;
+    }
+    }
+@media (max-width:31.875em){       
+    .side-3{
+    width: 100%;
+    list-style: none;
+    margin-left: 3% !important;
+    margin-top: 17rem !important;
+    text-align: center;
+    float: none;
+    }
+    }
 .side-4{
     list-style: none;
     margin-left: 10% !important;
@@ -802,3 +975,23 @@ float: left;
 text-align: center;
 float: left;
 }
+@media (max-width:40.75em){       
+.side-4{
+list-style: none;
+margin-top: 5rem;
+text-align: center;
+position: relative;
+left: -16.5rem;
+    } 
+  }
+  @media (max-width:31.875em){       
+  .side-4{
+      width: 50%;
+      /* margin: auto !important; */
+  list-style: none;
+  margin-top: 3rem;
+  text-align: center;
+position: relative;
+left: 18%;
+} 
+    }
